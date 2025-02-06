@@ -1,141 +1,65 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Product Landing</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <div id="page-wrapper">
-      <header id="header">
-        <div class="logo">
-          <img
-            id="header-img"
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
-            alt="original trombones logo"
-          />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable PV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="timetable">
+        <div class="header">Emplois du temps L1(S2): Conversion photovoltaïque (2024-2025)</div>
+        
+        <div class="grid">
+            <div class="cell time">Time</div>
+            <div class="cell">8:00-9:30</div>
+            <div class="cell">9:35-11:05</div>
+            <div class="cell">11:10-12:40</div>
+            <div class="cell">12:45-14:15</div>
+            <div class="cell">14:20-15:40</div>
+
+            <div class="cell day">Samedi</div>
+            <div class="cell"></div>
+            <div class="cell mest">Cours (Les métiers en sciences et technologies 2)<br>(EAD)/Mehalaine</div>
+            <div class="cell fr">Cours (Français) <br>(EAD)/Khodja</div>
+            <div class="cell mt">Cours (Méthodologie de la présentation) <br>(EAD)/Houari</div>
+            <div class="cell"></div>
+
+            <div class="cell day">Dimanche</div>
+            <div class="cell"></div>
+            <div class="cell td">TD (Math2):G1 <br> Salle 202/Imessaoudene</div>
+            <div class="cell td">TD (Physique2):G4 <br> Salle 212/Bouchlaghem</div>
+            <div class="cell td">TD (Physique2):G3 <br> Salle 212/Bouchlaghem</div>
+            <div class="cell"></div>
+
+            <div class="cell day">Lundi</div>
+            <div class="cell cour">Cours (Anglais) <br> Salle 290/Boukenoui</div>
+            <div class="cell td">TD (Thermo):G4 <br> Salle 202/Bouchakou</div>
+            <div class="cell td">TD (Thermo):G2 <br> Salle 212/Boudoumi</div>
+            <div class="cell cour">Cours (Thermo) <br> Abdelhadi/Amphi 188PAV 9</div>
+            <div class="cell cour">Cours (Thermo) <br> Abdelhadi/Amphi2PAV11</div>
+
+            <div class="cell day">Mardi</div>
+            <div class="cell"></div>
+            <div class="cell cour">Cours (Informatique 2) <br> Guenounou/Amphi2 pav10</div>
+            <div class="cell td">TD (Math2):G3 <br> Salle 202/Imessaoudene</div>
+            <div class="cell td">TD (Physique2):G2 <br> Salle 212/Bouchlaghem</div>
+            <div class="cell"></div>
+
+            <div class="cell day">Mercredi</div>
+            <div class="cell tp">TP (Chimie2): G1,G3 <br> Labo1, Alliouat, Bouchama</div>
+            <div class="cell tp">TP (Chimie2): G2,G4 <br> Labo2, Ferradji, Mahtel</div>
+            <div class="cell tp">TP (Physique2): G1,G4 <br> Labo1, Chaouchi, Kaci, Doumaz</div>
+            <div class="cell tp">TP (Info2): G3 <br> SalleInfo1, Khodja, Bouchaour</div>
+            <div class="cell tp">TP (Info2): G2 <br> SalleInfo1, Guenounou, Bousaida</div>
+
+            <div class="cell day">Jeudi</div>
+            <div class="cell cour">Cours (Physique2) <br> Salle 227 pav15/Benahmed</div>
+            <div class="cell cour">Cours (Physique2) <br> Salle 227 pav15/Benahmed</div>
+            <div class="cell cour">Cours (Math2) <br> Salle 227 pav15/Herriche</div>
+            <div class="cell cour">Cours (Math2) <br> Salle 227 pav15/Herriche</div>
+            <div class="cell"></div>
         </div>
-
-        <nav id="nav-bar">
-          <ul>
-            <li><a class="nav-link" href="#features">Features</a></li>
-            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-            <li><a class="nav-link" href="#pricing">Pricing</a></li>
-          </ul>
-        </nav>
-      </header>
-
-      <div class="container"></div>
-
-      <section id="hero">
-        <h2>Handcrafted, home-made masterpieces</h2>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input
-            name="email"
-            id="email"
-            type="email"
-            placeholder="Enter your email address"
-            required
-          />
-          <input id="submit" type="submit" value="Get Started" class="btn" />
-        </form>
-      </section>
-
-      <div class="container">
-        <section id="features">
-          <div class="grid">
-            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
-            <div class="desc">
-              <h2>Premium Materials</h2>
-              <p>
-                Our trombones use the shiniest brass which is sourced locally.
-                This will increase the longevity of your purchase.
-              </p>
-            </div>
-          </div>
-          <div class="grid">
-            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
-            <div class="desc">
-              <h2>Fast Shipping</h2>
-              <p>
-                We make sure you recieve your trombone as soon as we have
-                finished making it. We also provide free returns if you are not
-                satisfied.
-              </p>
-            </div>
-          </div>
-          <div class="grid">
-            <div class="icon">
-              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
-            </div>
-            <div class="desc">
-              <h2>Quality Assurance</h2>
-              <p>
-                For every purchase you make, we will ensure there are no damages
-                or faults and we will check and test the pitch of your
-                instrument.
-              </p>
-            </div>
-          </div>
-        </section>
-        <section id="how-it-works">
-          <iframe
-            id="video"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-        </section>
-        <section id="pricing">
-          <div class="product" id="tenor">
-            <div class="level">Tenor Trombone</div>
-            <h2>$600</h2>
-            <ol>
-              <p>Lorem ipsum.</p>  <!-- darthom <p> pcq 9a3din yo5orjoli mra9min-->
-              <p>Lorem ipsum.</p>
-              <p>Lorem ipsum dolor.</p>
-              <p>Lorem ipsum.</p>
-            </ol>
-            <button class="btn">Select</button>
-          </div>
-          <div class="product" id="bass">
-            <div class="level">Bass Trombone</div>
-            <h2>$900</h2>
-            <ol>
-              <p>Lorem ipsum.</p>
-              <p>Lorem ipsum.</p>
-              <p>Lorem ipsum dolor.</p>
-              <p>Lorem ipsum.</p>
-            </ol>
-            <button class="btn">Select</button>
-          </div>
-          <div class="product" id="valve">
-            <div class="level">Valve Trombone</div>
-            <h2>$1200</h2>
-            <ol>
-              <p>Plays similar to a Trumpet.</p>  <!-- remarkit bli makanch no9ta -->
-              <p>Great for Jazz Bands.</p>    <!-- meme hna-->
-              <p>Lorem ipsum dolor.</p>
-              <p>Lorem ipsum.</p>
-            </ol>
-            <button class="btn">Select</button>
-          </div>
-        </section>
-        <footer>
-          <ul>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <span>Copyright 2016, Original Trombones</span>
-        </footer>
-      </div>
     </div>
-  </body>
+</body>
 </html>
